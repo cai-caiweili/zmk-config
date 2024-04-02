@@ -14,8 +14,8 @@
 ---
 include:
   - board: nice_nano_v2
-    shield: skeletyl_left
+    shield: butterfly36_left
   - board: nice_nano_v2
-    shield: skeletyl_right
+    shield: butterfly36_right
   - board: nice_nano_v2
     shield: settings_reset

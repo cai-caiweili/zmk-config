@@ -1,0 +1,5 @@
+config SHIELD_BUTTERFLY36_LEFT
+    def_bool $(shields_list_contains,butterfly36_left)
+
+config SHIELD_BUTTERFLY36_RIGHT
+    def_bool $(shields_list_contains,butterfly36_right)

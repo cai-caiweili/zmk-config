@@ -1,6 +1,6 @@
 file_format: "1"
-id: skeletyl
-name: Skeletyl
+id: butterfly36
+name: Butterfly36
 type: shield
 url: https://github.com/Bastardkb/Skeletyl
 requires:
@@ -8,5 +8,5 @@ requires:
 features:
   - keys
 siblings:
-  - skeletyl_left
-  - skeletyl_right
+  - butterfly36_left
+  - butterfly36_right
