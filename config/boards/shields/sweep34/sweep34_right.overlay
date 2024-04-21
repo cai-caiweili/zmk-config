@@ -1,4 +1,4 @@
-#include "butterfly36.dtsi"
+#include "sweep34.dtsi"
 
 &default_transform {
     col-offset = <17>;
