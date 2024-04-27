@@ -69,7 +69,7 @@
       bindings = <
         &kp Q     &kp W         &kp E         &kp R         &kp T           &kp Y     &kp U         &kp I         &kp O          &kp P
         &tlt 1 A  &tmt LGUI S   &tmt LALT D   &tmt LSHFT F  &kp G           &kp H     &tmt RSHFT J  &tmt RALT K   &tmt RGUI L    &tmt RCTRL SQT
-        &kp Z     &kp X         &kp C         &kp V         &kp B           &kp N     &kp M         &kp COMMA     &kp DOT        &kp FSLH
+        &tlt 5 Z  &kp X         &kp C         &kp V         &kp B           &kp N     &kp M         &kp COMMA     &kp DOT        &kp FSLH
                                               &mt LCTRL ESC &lt 2 SPACE     &kp RET   &kp BSPC
       >;
     };
