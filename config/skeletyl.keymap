@@ -67,28 +67,28 @@
 
     L0_layer {
       bindings = <
-        &kp Q     &kp W         &kp E         &kp R         &kp T           &kp Y     &kp U         &kp I         &kp O          &kp P
-        &tlt 1 A  &tmt LGUI S   &tmt LALT D   &tmt LSHFT F  &kp G           &kp H     &tmt RSHFT J  &tmt RALT K   &tmt RGUI L    &tmt RCTRL SQT
-        &tlt 5 Z  &kp X         &kp C         &kp V         &kp B           &kp N     &kp M         &kp COMMA     &kp DOT        &kp FSLH
-                                &mt LCTRL ESC &lt 2 TAB    &kp SPACE       &kp RET   &kp BSPC      &kp RCTRL
+        &kp Q     &kp W         &kp E         &kp R         &kp T                         &kp Y     &kp U         &kp I         &kp O          &kp P
+        &tlt 1 A  &tmt LGUI S   &tmt LALT D   &tmt LSHFT F  &kp G                         &kp H     &tmt RSHFT J  &tmt RALT K   &tmt RGUI L    &tmt RCTRL SQT
+        &tlt 5 Z  &kp X         &kp C         &kp V         &kp B                         &kp N     &kp M         &kp COMMA     &kp DOT        &kp FSLH
+                                              &mt LCTRL ESC &lt 2 SPACE  &none    &none   &kp RET   &kp BSPC
       >;
     };
     
     L1_layer {
       bindings = <
-        &none     &kp C_VOL_DN  &kp C_MUTE    &kp C_VOL_UP  &kp LS(TAB)     &none       &none       &none      &none       &none
-        &none     &kp LGUI      &kp LALT      &kp LSHFT     &kp TAB         &kp LEFT    &kp DOWN    &kp UP     &kp RIGHT   &none
-        &none     &none         &kp F8        &kp F2        &kp F12         &none       &none       &none      &none       &none
-                                &kp LCTRL     &kp BSPC      &kp RET         &kp RET     &kp DEL     &kp RCTRL
+        &none     &kp C_VOL_DN  &kp C_MUTE    &kp C_VOL_UP  &kp LS(TAB)                   &none       &none       &none      &none       &none
+        &none     &kp LGUI      &kp LALT      &kp LSHFT     &kp TAB                       &kp LEFT    &kp DOWN    &kp UP     &kp RIGHT   &none
+        &none     &none         &kp F8        &kp F2        &kp F12                       &none       &none       &none      &none       &none
+                                              &kp LCTRL     &kp BSPC     &none    &none   &kp RET     &kp DEL
       >;
     };
 
     L2_layer {
       bindings = <
-        &kp EXCL  &kp AT    &kp HASH    &kp DLLR    &kp PRCNT               &kp CARET     &kp AMPS    &kp STAR    &kp SEMI  &kp COLON
-        &kp N1    &kp N2    &kp N3      &kp N4      &kp N5                  &kp MINUS     &kp EQUAL   &kp LBKT    &kp LBRC  &kp LPAR
-        &kp N6    &kp N7    &kp N8      &kp N9      &kp N0                  &kp UNDER     &kp PLUS    &kp RBKT    &kp RBRC  &kp RPAR
-                            &none       &none       &none                   &kp GRAVE     &lt 3 BSLH  &none
+        &kp EXCL  &kp AT    &kp HASH    &kp DLLR    &kp PRCNT                   &kp CARET     &kp AMPS    &kp STAR    &kp SEMI  &kp COLON
+        &kp N1    &kp N2    &kp N3      &kp N4      &kp N5                      &kp MINUS     &kp EQUAL   &kp LBKT    &kp LBRC  &kp LPAR
+        &kp N6    &kp N7    &kp N8      &kp N9      &kp N0                      &kp UNDER     &kp PLUS    &kp RBKT    &kp RBRC  &kp RPAR
+                                        &none       &none     &none     &none   &lt 3 GRAVE   &kp BSLH
       >;
     };
 
