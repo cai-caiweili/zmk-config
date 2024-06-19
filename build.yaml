@@ -14,8 +14,8 @@
 ---
 include:
   - board: nice_nano_v2
-    shield: sweep34_left
+    shield: microbox34_left
   - board: nice_nano_v2
-    shield: sweep34_right
+    shield: microbox34_right
   - board: nice_nano_v2
     shield: settings_reset

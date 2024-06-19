@@ -1,4 +1,4 @@
-#include "sweep34.dtsi"
+#include "microbox34.dtsi"
 
 &default_transform {
     col-offset = <17>;
