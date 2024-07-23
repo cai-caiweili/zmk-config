@@ -3,6 +3,7 @@
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/keys.h>
+#include <dt-bindings/zmk/mouse.h>
 #include <dt-bindings/zmk/outputs.h>
 
 &mt {
@@ -82,10 +83,10 @@
 
         L1_layer {
             bindings = <
-&none  &kp C_VOL_DN  &kp C_MUTE  &kp C_VOL_UP  &kp LS(TAB)  &none     &none     &none   &none      &none
-&none  &kp LGUI      &kp LALT    &kp LSHFT     &kp TAB      &kp LEFT  &kp DOWN  &kp UP  &kp RIGHT  &none
-&none  &none         &kp F8      &kp F2        &kp F12      &none     &none     &none   &none      &none
-                                 &kp BSPC      &kp RET      &kp RET   &kp DEL
+&none  &kp C_VOL_DN  &kp C_MUTE  &kp C_VOL_UP  &kp LS(TAB)  &none    &msc SCROLL_LEFT  &kp UP_ARROW  &mwh SCROLL_RIGHT  &none
+&none  &kp LGUI      &kp LALT    &kp LSHFT     &kp TAB      &none    &kp LEFT_ARROW    &kp DOWN      &kp RIGHT          &none
+&none  &none         &kp F8      &kp F2        &kp F12      &none    &none             &none         &none              &none
+                                 &kp BSPC      &kp RET      &kp RET  &kp DEL
             >;
         };
 
@@ -115,18 +116,18 @@
             //             |     |     |     |   |     |     |     |
 
             bindings = <
-&bt BT_CLR    &bt BT_CLR_ALL   &none         &bootloader   &sys_reset    &sys_reset  &bootloader  &none  &none  &none
-&none         &none         &none         &none         &out OUT_TOG  &none       &none        &none  &none  &none
-&bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4  &none       &none        &none  &none  &to 6
-                                          &none         &none         &none       &none
+&bt BT_CLR    &bt BT_CLR_ALL  &none         &bootloader   &sys_reset    &sys_reset  &bootloader  &none  &none  &none
+&none         &none           &none         &none         &out OUT_TOG  &none       &none        &none  &none  &none
+&bt BT_SEL 0  &bt BT_SEL 1    &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4  &none       &none        &none  &none  &to 6
+                                            &none         &none         &none       &none
             >;
         };
 
         L5_layer {
             bindings = <
-&kp P     &kp O    &kp I      &kp U  &kp Y  &none  &none  &none  &none  &none
-&kp SEMI  &kp L    &kp K      &kp J  &kp H  &none  &none  &none  &none  &none
-&kp FSLH  &kp DOT  &kp COMMA  &kp M  &kp N  &none  &none  &none  &none  &none
+&kp P     &kp O    &kp I      &kp U  &kp Y  &none  &mkp LCLK       &mmv MOVE_UP    &mkp RCLK        &none
+&kp SEMI  &kp L    &kp K      &kp J  &kp H  &none  &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &none
+&kp FSLH  &kp DOT  &kp COMMA  &kp M  &kp N  &none  &none           &mkp MCLK       &none            &none
                               &none  &none  &none  &none
             >;
         };
